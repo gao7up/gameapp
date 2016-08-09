@@ -82,6 +82,9 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
+            DeviceId d = new DeviceId();
+            System.out.println(d.getDeviceId());
+
         } else if (id == R.id.nav_character) {
 
         } else if (id == R.id.nav_slideshow) {
